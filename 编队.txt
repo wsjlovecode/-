@@ -1,0 +1,17 @@
+public void united(Unit u[3], int n){
+	int teamID;
+	teamID=n;
+	for(i=1;i<=3;i++)
+		u[i].teamID = teamID;
+}
+
+
+public void findTeam(UnitAction a1, UnitAction a2){
+	if(a1.teamID==a2.teamID){
+		if(a1.parameter!=1){
+		UnitAction UA1=new UnitAction;
+		a1.flag = 1;
+		UA1.parameter = a1.parameter;
+		}
+	}
+}
